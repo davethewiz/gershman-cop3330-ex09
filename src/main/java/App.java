@@ -14,7 +14,7 @@ public class App
         return scanner.nextLine();
     }
 
-    public static int StringToint(String str) {
+    public static int StringToInt(String str) {
         return Integer.parseInt(str);
     }
 
@@ -22,8 +22,8 @@ public class App
 
     public static void main( String[] args )
     {
-        int length = StringToint(GetInput("What is the length of the room? "));
-        int width = StringToint(GetInput("What is the width of the room? "));
+        int length = StringToInt(GetInput("What is the length of the room? "));
+        int width = StringToInt(GetInput("What is the width of the room? "));
 
         int area = length * width;
 
